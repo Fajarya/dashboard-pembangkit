@@ -15,7 +15,7 @@ st.sidebar.title("Data Science for Energy System Modelling")
 st.sidebar.markdown(
   ":+1: This notebook introduces you to the 'streamlit' library.")
 
-hover_data = ['name', 'primary_fuel', "capacity_mw", 'owner']
+hover_data = ['name', 'primary_fuel', 'capacity_mw', 'owner', 'commisioning_year']
 
 if not df.empty:
   fig = px.scatter_mapbox(
