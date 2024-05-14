@@ -34,5 +34,4 @@ if not df.empty:
 
 else:
   st.error("Sorry, no power plants to display!")
-  
-  
+
